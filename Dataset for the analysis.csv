@@ -1,0 +1,798 @@
+Paper publication venue,Paper title,"Paper topic
+","Methodologies used in the human study
+","Experiment design use for the evaluation
+
+","Scale interpretation
+
+",Methodology used for the results,Test used for the statistical significance testing,Number of annotators used in the human study,"Subjects used in the evaluation 
+",Criteria or questions used in the evaluation,Coefficent used to measuring Inter-Annotator Agreement,Inter-Annotator Agreement reported,"Inter-Annotator Agreement interpretation scale used
+",Strategy to improve the Inter-Annotator Agreement
+INLG 2008,Generating Textual Summaries of Bar Charts,Graph Summarization,Relative judjment,Rank items,Ordinal,Percentage,-,15,-,"Rank  summaries in terms of their quality in conveying the informational content",-,-,-,-
+,Dependency Tree Based Sentence Compression,Sentence compression,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)  or  Numerical scale","Interval
+
+No justification",Mean,-,5,No expert: native English speakers,"Grammaticality, Importance",-,-,-,-
+,Extractive vs. NLG-based Abstractive Summarization of Evaluative Text: The Effect of Corpus Controversiality,Summarization,Absolute judgment,"Likert: (5 points)
+
+Alternative name: graphic rating scale (or Likert item or Likert-style)","Interval
+
+No justification","Mean, Standard Deviation","Two-way ANOVA
+
+One tailed sign test",20,No expert: university students,"Grammaticality, Non-redundancy, Referential clarity, Focus, Structure and Coherence, Recall, Precision, Accuracy, Footnote, Macro – Footnote, Macro, Overall",-,-,-,-
+,Using Tactical NLG to Induce Affective States: Empirical Investigations,Measure readers’ emotions,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)  or  Numerical scale","Interval
+
+No justification","Mean, Standard Deviation ",t-test,60,No expert: female students,"Interest in food before reading the text, Informativeness, Positive message 
+polarity, Negative message 
+polarity, New information,
+Post interest in the message.",-,-,-,-
+,Practical Grammar-Based NLG from Examples,Grammar-based generation,Absolute judgment,Rating: Numerical (5 points) ,"Interval
+
+Justified: The authors wrote ""The distribution of ratings across utterances is not normal;  to validate our results we accompanied each t-test by a nonparametric Wilcoxon rank sum test, and significance always fell in the same general range.""",Frequency,"t-test, Wilcoxon rank sum test
+
+",5,Expert,Overall,Krippendorff's α,0.708,Krippendorff scale,-
+,Automated Metrics That Agree With Human Judgements On Generated Output for an Embodied Conversational Agent,Facial displays,Relative judjment,Relative selection,Ordinal,Counting ,χ2 ,36,No expert: native English speakers,Select the one you prefer,-,-,-,-
+,Generation of Output Style Variation in the SAMMIE Dialogue System,Dialogue systems,Absolute judgment,"Rating: (6 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)  or  Numerical scale","Interval 
+
+No justification","Result presented in the paper:
+
+Kruijff-Korbayová and O. Kukina (2008) The Effect of Dialogue System Output Style Variation
+on Users’ Evaluation Judgments and Input Style","t-test 
+
+Cronbach’s alpha (use to measure the meaningfulness and reliability of 6 indices defined to evaluate the annottors answers)",28,No expert: native German speakers,"How do you assess the system in general, Communication with the system seemed to you, In terms of usability the
+system is",-,-,-,-
+,Evaluating an Ontology-Driven WYSIWYM Interface,"Ontology-driven for metadata creation",Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) 
+","Interval
+
+No justification",Mean,-,16,No expert: researchers and PhD students,"Usability, Usefulness",-,-,-,-
+,Creation of a New Domain and Evaluation of Comparison Generation in a Natural Language Generation System,Customizable descriptions generation,Absolute judgment," Likert (L)
+ Multiple-choice questions (Mcq)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)  or  Numerical scale","Interval
+
+No justification","L: Significance analysis
+Mcq: Mean, Standard Deviation",Two-way ANOVA,40,No expert: fluent English speakers,-,-,-,-,-
+,Generating Baseball Summaries from Multiple Perspectives by Reordering Content,Stories' Generation ,Absolute judgment,"Rating:  (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)  or  Numerical scale","Interval 
+
+No justification","Mean, Standard Deviation ",t-test,8,-,"Original, Events Only, Overlapping, Ordering",-,-,-,-
+ENLG 2009,System Building Cost vs. Output Quality in Data-to-Text Generation,Data-to-text generation systems,Absolute judgment,"Rating: (7 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)  or  Numerical scale","Interval
+
+Justified: The authors wrote ""because ratings are ordinal data and it is not clear how meaningful it is to compute means. However, it is a simple way of obtaining
+a system ranking for comparison with the
+two automatic scores (BLEU and NIST)"". ","Mean, Counting
+","One-way ANOVA, Post-hoc Tukey",22,No expert: native English speakers,"Clarity, Readability",-,-,-,-
+,Report on the First NLG Challenge on Generating Instructions in Virtual Environments (GIVE),Generating Instructions in Virtual Environments,Absolute judgment,"Likert: (5 points) (LK5), (7 points) (LK7)
+
+Alternative name: Numerical scale
+
+Choose a category: (3 categories) (Cac)
+
+","Interval
+
+No justification
+
+Nominal","LK5, LK7: Mean
+
+Cac: Percentage","LK5, LK7: ANOVA, Tukey-tests
+
+Cac : χ2 ",-,No expert: internet anonymous users,"LK7: Overall
+
+LK5: Task difficulty, Goal clarity, Play again, Instruction clarity, Instruction helpfulness, Choice of words, Referring expressions, Navigation instructions, Friendliness, 
+
+N: Informativity, Timing",-,-,-,-
+,The TUNA-REG Challenge 2009: Overview and Evaluation Results,Shared-Task Evaluation Competition (STEC),Absolute judgment,Slider: (from 1 to 100),"Interval
+
+Justified: The authors noted ""We did not use a rating scale (where integers correspond to different assessments of quality), because it is not generally considered appropriate to apply parametric methods of analysis to ordinal data. Instead, we asked subjects to give their judgments for Adequacy and Fluency for each item by manipulating a slider""","Mean, Standard Deviation","ANOVA, Post-hoc Tukey",8,No expert: native English speakers,"Adequacy/clarity, Fluency",-,-,-,-
+INLG 2010,Comparing Rating Scales and Preference Judgements in Language Evaluation,Evaluation study: three experiments compare absolute vs relative judgment,"Absolute judgment (Aj) 
+Relative judjment (Rj)","Aj;  Rating: (5 points) 
+Rj; Slider: (from -10 to 10)
+
+Aj; Rating:  (7 points) 
+Rj; Slider: (from -50 to 50)
+
+Aj; Slider: (from 0 to 100)
+Rj; Slider: (from -50 to 50)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) ","Aj, Rj; Interval
+
+Aj, Rj; Interval
+
+Aj, Rj;Interval
+
+About the use of rating scale  the author wrote: ""The result of a rating scale experiment is ordinal
+data (sets of scores selected from the discrete
+rating scale). The means-based ranks and statistical
+significance tests that are commonly presented
+with the results of RSEs are not generally considered
+appropriate for ordinal data in the statistics
+literature (Siegel, 1957). At the least, “a test on the
+means imposes the requirement that the measures
+must be additive, i.e. numerical” (Siegel, 1957, p.
+14). Parametric statistics are more powerful than
+non-parametric alternatives, because they make a
+number of strong assumptions (including that the
+data is numerical). If the assumptions are violated
+then the risks is that the significance of results is overestimated.""","In the paper are analysed the difference between Rating scale evaluation Vs. Slider scale evaluation. The dimenions od the analysis as the following:
+
+(i) the amount of variation accounted for by differences between systems 
+(ii) inter-evaluator agreement
+ (iii) evaluator self-consistency
+ (iv) the number of significant differences identified
+(v) experimental cost.",One-way ANOVA,"Aj, Ar: 10
+ 
+Aj, Ar: 22 
+
+Aj, Ar: 8 and 28"," Aj, Rj; No expert: linguistics students
+
+ Aj, Rj; No expert: linguistics students and University staff 
+
+ Aj, Rj; No expert: linguistics students","Aj, Rj:  Fluency, Clarity 
+
+Aj, Rj:  Readability, Clarity 
+
+ Aj, Rj:  Fluency, Adequacy",Aj. Rj: Kendall’s W,"Aj: Fluency = 0.760, Clarity = 0.543 
+Rj: Fluency = 0.725, Clarity = 0.717   
+
+Aj:  Readability = 0.533, Clarity = 0.497
+Rj:  Readability = 0.542 , Clarity = 0.626
+ 
+Aj: Fluency = 0.676, Adequacy = 0.471
+Rj: Fluency = 0.654, Adequacy = 0.573",-,-
+,A Discourse-Aware Graph-Based Content-Selection Framework,Content selection,"Absolute judgment (Aj) 
+Relative judjment (Rj)","Rj; Relative selection
+Aj: Rating: (5 points) 
+
+Alternative name: Numerical scale","Rj; Ordinal
+Aj: Interval
+
+No justification","Rj; Counting
+Aj: Mean, Mim",-," Rj: 21 
+Aj: 12 ","Rj, Aj; No expert: university students ","Rj: Select the best 4 proprosition 
+Aj: Quality in conveying additional information",-,-,-,-
+,Situated Reference in a Hybrid Human-Robot Interaction System,Human-robot interaction,Absolute judgment ,Slider: (from 1 to 100),"Interval
+
+No justification",Mean  (done in each of the four categories),Mann-Whitney ,41,-,"Intelligenceof the robot, Task ease and task success, Feelings of the user,  Conversation quality ",-,-,-,-
+,Generating and Validating Abstracts of Meeting Conversations: a User Study,Generation of abstracts of meeting conversations,Absolute judgment ,Likert: Likert item (5 points),"Interval
+
+No justification",Mean,t-test,19,-,"I understood the overall content of the discussion, It required a lot of effort to review the meeting in
+the allotted time, The summary was coherent and readable,  The information in the summary was relevant,  The summary was useful for navigating the discussion, The summary was missing relevant information.",-,-,-,-
+,Paraphrase Generation as Monolingual Translation: Data and Evaluation,Paraphrase Generation,Absolute judgment ,"Rating: (7 points)
+
+Alternative name: Numerical scale"," Interval
+
+No justification","Mean, Standard Deviation",-,-,-,Overall,-,-,-,-
+,The GREC Challenges 2010: Overview and Evaluation Results,Referring expression generation,Relative judjment,Relative rating: (Slider from -10 to 10)," Interval
+
+No justification","Mean, Counting","ANOVA, Post-hoc Tukey",10,No expert: university students all native English speakers,"Fluency, Referential Clarity",-,-,-,-
+,Report on the Second NLG Challenge on Generating Instructions in Virtual Environments (GIVE-2),Generating Instructions in Virtual Environments,Absolute judgment , Slider: (from -100 to 100),"Interval
+
+No justification",Mean,"ANOVA, Post-hoc Tukey",-,No expert: Internet anonymous users,"Overall the system gave me good directions, Quality measures (15 questions), Emotional  affect measures (7 questions)",-,-,-,-
+UCNLG + Eval  2011,Exploring linguistically-rich patterns for question generation,Question Generation,Absolute judgment,Choose a category: (5 categories),Ordinal,Counting,-,3,Expert: the paper's authors,"Plausible (3 categories), Implausible (2 categories)",-,-,-,-
+ENLG 2011,Text Simplification using Typed Dependencies: A Comparison of the Robustness of Different Generation Strategies,Text simplification,Absolute judgment,Choose a category: (2 categories),Nominal,Percentage,-,2,No expert: native English speakers,"Acceptable, Unacceptable","k not better specified (k)
+Percent Agreement (%)","Judge 1 - Judge 2: 0.55 (k), 0.78 (%)
+Judge 1 - Developer: 0.52 (k), 0.79 (%)
+Judge 2 - Developer: 0.32(k) ,  0.68 (%) ",-,-
+,Generating Affective Natural Language for Parents of Neonatal Infants,Medical texts generation,"Absolute judgment (Aj) 
+Relative judjment (Rj)","Relative selection
+Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) ","Rj: Ordinal 
+Aj: Interval
+
+No justification","Rj: Percentage
+Aj: Categories correlation (used two-tailed 
+Pearson cross-correlation)",-,13,"Rj, Aj; No expert: parents that previously had a child in neonatal care","Rj: Whether the participants preferred either text A or B for the given scenario
+Aj: Understandability, Helpfulness, Level of which the text appropriately considers the parents’ emotional state",-,-,-,-
+,Adaptive Information Presentation for Spoken Dialogue Systems: Evaluation with human subjects,Natural Language Generation in spoken dialogue,Absolute judgment,"Choose a category: (2 categories) (Chc)
+
+Likert: (6 points) (LK6)
+
+Alternative name: Likert item or Likert-style","Chc: Interval
+
+No justification 
+
+LK6: Ordinal","Chc: Percentage (?)
+
+ LK6: Mean (?)","Chc: z-test 
+
+LK6: Mann-Whitney",131,"No expert: people from Cambridge and Edinburgh, mostly students and Crowdsourced workers","Chc: Did you find all the information you were looking for?
+
+LK6: The system understood me well, The phrasing of the system’s responses was good, The system’s voice was of good quality",-,-,-,-
+,Combining Hierarchical Reinforcement Learning and Bayesian Networks for Natural Language Generation in Situated Dialogue,Situated Dialogue,Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) ","Interval
+
+No justification ","Mean, Standard Deviation",t-test,12,-,Helpfulness on guiding the displayed person to the referent,-,-,-,-
+,Levels of organisation in ontology verbalisation,Ontology verbalisation,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)  or  Numerical scale",Ordinal,Counting,Mann-Whitney ,57,Expert: Members of the ACL special interest groups SIGGEN and SIGdial,"How difficult was it to find theinformation?",-,-,-,-
+,Investigation into Human Preference between Common and Unambiguous Lexical Substitutions,Lexical Substitutions,Relative judjment,Rank items,"Interval
+
+No justification ",Assessments addition (and Pearson correlation for further analysis),-,10 (?),-,Rank all four possible replacements in order of preference as a substitution for the original word in context,-,-,-,-
+,Generation of Formal and Informal Sentences,Generation of Formal and Informal Sentences,Absolute judgment,Choose a category: (2 categories),Nominal,Precision,-,2,No expert: native English speakers,Formal / Informal,"Cohen's k (k)
+Percent Agreement (%)","k: 0.88
+%: 0.94",-,-
+,The First Surface Realisation Shared Task: Overview and Evaluation Results,Surface Realisation,Absolute judgment,Slider: (from 0 to 100),"Interval
+
+No justification ",Mean,"One-way ANOVA, post-hoc Tukey","6 (Sr-Deep evaluation)
+5 (SR-Shallow evaluation)",No expert: native English speakers,"Clarity, Readability, Meaning Similarity",-,-,-,-
+,Report on the Second Second Challenge on Generating Instructions in Virtual Environments (GIVE-2.5),Generating Instructions in Virtual Environments,Absolute judgment,Slider: (from -100 to 100),"Interval 
+
+No justification ",Assessments addition,"ANOVA, post-hoc Tukey ",-,No expert: internet anonymous users,"Overall, the system gave me good instructions.
+I was confused about which direction to goin.
+I could easily identify the buttons the systemdescribed to me.
+I had to re-read instructions to understandwhat I needed to do.
+The system’s instructions were visible longenough for me to read them.
+The system’s instructions came too late ortoo early.
+The system immediately offered helpwhen I was in trouble.
+The system gave me useful feedback aboutmy progress.
+The system was very friendly.
+I felt I could trust the system’s instructions.",-,-,-,-
+INLG 2012,Perceptions of Alignment and Personality in Generated Dialogue,Personality in Generated Dialogue,"Absolute judgment (Aj) 
+Relative judjment (Rj)","Aj: Likert: (7 points)
+
+Rj: Choose a category: (4 categories)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)  or  Numerical scale","LK7: Ordinal
+
+ Cac: Nominal","Cac: Precision
+
+LK7: Ordinal logistic regressions (?)","LK7, Cac: χ2 ",80,No expert: annotator from Language Experiments Portal,"LK7: How well the characters ‘got on’ with each other
+How smoothly the conversation went 
+
+Cac: which of the two characters 
+scored higher on the extraversion (E), neuroticism (N), agreeableness (A) and conscientiousness (C) dimensions",-,-,-,-
+,"Linguist’s Assistant: A Multi-Lingual Natural Language Generator based on Linguistic Universals, Typologies, and Primitives",Linguist’s Assistant,Relative judjment,Relative selection,Ordinal,Counting ,-,"192 Korean
+ 40 Jula","No expert: Korean speakers 
+No expert: Jula speakers",Select the best text,-,-,-,-
+,“Hidden semantics”: what can we learn from the names in an ontology?,Generation of natural language texts from ontologies,"Absolute judgment (Aj)
+Relative judjment (Rj)
+","First survey (Fs), Aj: Choose a category: (4 categories)
+
+Second survey (Ss), Rj: Relative selection (Rss)
+
+Second survey (Ss), Aj: Choose a category (Cac2): (2 categories) 
+
+Second survey (Ss), Aj: Choose a category (CacV): (varius categories)","Fs, Aj: Nominal
+
+Ss, Rj: Ordinal
+
+Ss, Aj: Nominal
+
+Ss, Aj: Nominal","Fs, Ss: Counting (and χ2  correlation for further analysis) ",Fs: χ2 ,"Fs: 30
+Ss: 29 ",-,"Fs, Aj: Which sentences, if any, can be deducted  from the phrase ?
+
+Ss, Aj, Cac2: Do you think the above paragraphs communicate the same inforamtion, implicity or explicity?
+
+Ss, Aj, CacV: Please tick any sentence(s) from A (B) which you belive carring informatiuon not in B (A)
+
+Ss, Rj, Rss: Plese rate your preference, in any, for one of the paragraph over the other",-,-,-,-
+,On generating coherent multilingual descriptions of museum objects from Semantic Web ontologies,Generation of natural language texts from ontologies,Relative judjment,Relative selection,Ordinal,Counting ,-,"3 English
+3 Swedish
+3 Hebrew","No expert: native English speakers
+  No expert: native Swedish speakers
+  No expert: native Hebrew speakers",Choose the most coherent description,Fleiss' k,"English: 0.66
+Swedish: 0.78
+Hebrew: 0.72",-,-
+,Planning Accessible Explanations for Entailments in OWL Ontologies,Generation of natural language texts from ontologies,Absolute judgment,"Choose a category (Cac): (4 categories) 
+Rating (R): (5 points) 
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","Cac: Nominal 
+R: Interval
+
+No justification ","Cac: Percentage
+R: Mean",-,43,No expert: university staff and students,"Cac: Choose the correct conclusion from four alternatives
+R: Rate the difficulty of this choice ",-,-,-,-
+ENLG 2013,Exploiting ontology lexica for generating natural language texts from RDF data,Generation of natural language texts from ontologies,Absolute judgment,"Choose a category (Cac): (2 categories)
+Rating (R): Graphic rating scale (4 points) ","Cac: Nominal
+R: Ordinal","Cac: Significance analysis (metric not specified)
+ R: Percentage",-,93,-,"R: Fluency, Adequacy
+Cac: The text is appropriate for novices or for advanced cooks",-,-,-,-
+,"Using Integer Linear Programming for Content Selection, Lexicalization, and Aggregation to Produce Compact Texts from OWL Ontologies",Generation of natural language texts from ontologies,Absolute judgment,"Likert  (LK): Likert item (5 points) 
+Rating (R): (5 points) 
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","LK, R: Interval
+
+No justification ","LK, R: Mean",t-test,6,No expert: computer science students fluent English speakers,"LK: Fluency, Text structure, Clarity
+Rs: Overall quality",-,-,-,-
+,Generating Natural Language Questions to Support Learning On-Line,Question Generation,Absolute judgment,Choose a category: (2 categories),Nominal,Percentage,-,1,Expert: a graduate student from the Faculty of Education,"Grammaticality, Semantic validity, Vagueness, Answerability, Learning value",-,-,-,-
+,Generating student feedback from time-series data using Reinforcement Learning,Generating student feedback,Relative judjment,Rank item,Ordinal,Mode,Mann-Whitney,17,No expert: native English speakers students ,Order items by preference,-,-,-,-
+,Deconstructing Human Literature Reviews – A Framework for Multi-Document Summarization ,Summarization,Absolute judgment,Method to score the criteria analysed not specified ,-,-,-,35,"No expert: Library and Information Science and Computer
+Science researchers and PhD students","Comprehensibility, Readability, Usefulness",-,-,-,-
+,Abstractive Meeting Summarization with Entailment and Fusion,Summarization,Absolute judgment,Rating: Graphic scale (3 points),"Interval
+
+No justification ","Mean, Percentage",-,2,-,Grammaticality,-,-,-,-
+,MIME - NLG in Pre-Hospital Care,Medical texts generation,Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)",Ordinal,"Med, max, mim",Friedman test,9,Expert: paramedics,"Accuracy, Understandability, Usefulness",-,-,-,-
+,POS-tag based poetry generation with WordNet,Poetry generation,Turing Test-like evaluation,Turing Test-like evaluation ,Nominal,Percentage,-,2,Expert: linguists,Is the text generated by a machine or by a human?,-,-,-,-
+,Greetings Generation in Video Role Playing Games,Generation of contextually greeting,Absolute judgment,Choose a category (?),"Interval
+
+No justification ",Mean,-,7,-,"Appropriateness, Politeness, Social distance, Relative power, Feeling a sense of urgency",-,-,-,-
+,GenNext: A Consolidated Domain Adaptable NLG System,NLG system designed specifically to adapt quickly and easily to different domains,Relative judjment,Relative selection ,Ordinal,Mean (?),χ2 ,Over 100,"No expert (NE): crowdsourced workers
+Expert (E):  3 experts from the financial and 4 from the biography",Overall,Percent Agreement,"NE: 0.75 
+E: 0.76",-,-
+INLG + SIDDIAL 2014,Crowdsourcing Language Generation Templates for Dialogue Systems,Language Generation Templates,Absolute judgment,"Choose a category (Cac): (2 categories) 
+Rating (R): Graphic rating scale (6 points)","Cac: Nominal
+R: Interval 
+
+No justification (note for the statistical significance test they use nonparametric statistic)","Cac: Percentage
+R: Mean, Standard Deviation",Kruskal-Wallis,231,No expert: crowdsourced workers,"Cac: Do the highlighted phrases (A and B) have the same meaning? 
+Cac: Does saying A (B) make sense at the point in the dialog?
+R: Please rate which of the highlighted phrases (A and B) sounds more natural in the context of the given dialog",-,-,-,-
+INLG 2014,A Case Study: NLG meeting Weather Industry Demand for Quality and Quantity of Textual Weather Forecasts,Weather reports generation,Absolute judgment,"Choose a category (N): (2 categories) 
+Multiple-choice questions (M): (4 points)","N, M: Nominal","N, M: Percentage",-,35,No expert: end-users,"N: Did you find the text on the weather forecast page helped you to understand the forecast better?
+N: Would you recommend this feature?
+M: How did you find the text used?",-,-,-,-
+,Text simplification using synchronous dependency grammars: Generalising automatically harvested rules,Text simplification,Absolute judgment ,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)","Interval
+
+No justification","Exp1, Exp2: Mean, Standard Deviation, Median","Exp1, Exp2: One-way ANOVA, post-hoc Tukey ","First experiment (Exp 1): 28
+Second experiment (Exp 2): 76","Exp1, Exp2: No expert: crowdsourced workers
+","Exp1, Exp2:  Fluency, Simplicity,  Meaning preservation
+",-,-,-,-
+,A language-independent method for the extraction of RDF verbalization templates,Extraction verbalization templates,Absolute judgment,"Rating (R4):  Graphic scale (4 points)
+Rating (R5):  Graphic scale (5 points)","R4, R5: Ordinal","R4, R5: Counting ",-,6,Expert: expert in the fields of RDF and SPARQL and that are proficient in both English and German.,"R4: Accuracy, Syntactic correctness
+R5: Understandability",-,-,-,-
+,A Template-based Abstractive Meeting Summarization: Leveraging Summary and Source Text Relationships,Summarization,Absolute judgment,Rating:  Graphic scale (5 points),"Interval
+
+No justification",Mean,t-test,58,No expert: crowdsourced workers,"Overall quality, Fluency, Informativeness",-,-,-,-
+,A Hybrid Approach to Multi-document Summarization of Opinions in Reviews,Summarization,Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)","Interval
+
+No justification",Mean,"Kruskal-Wallis, χ2, Wilcoxon signed-rank",5,No expert: crowdsourced workers,"Readability, Completeness, Compactness, Correctness",-,-,-,-
+,Adapting Graph Summaries to the Users’ Reading Levels,Graph Summarization,Relative judjment ,Relative selection , Ordinal,Percentage,-,"5, 34","No expert: 5th grade, freshmen college students",Overall,-,-,-,-
+,Two-Stage Stochastic Email Synthesizer,Email synthesizer,"Absolute judgment (Aj) 
+Relative judjment (Rj)","Aj: Rating (R): (5 points)
+Rj: Rank items (RI)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","R: Interval
+
+No justification
+ 
+RI: -","R: Mean
+RI: -",-,"R, RI: 7",-,"RI: Overall coherence, Coherence, Fluency, Naturalness
+R: Overall",-,-,-,-
+,FlowGraph2Text: Automatic Sentence Skeleton Compilation for Procedural Text Generation,"Texts generation from flow graphs",Absolute judgment ,Rating: Graphic scale (5 points),"Interval
+
+No justification",Mean,-,4,-,"
+Will the dish be the same as the original recipe when you cook according to the generated text?",-,-,-,-
+,Generating Valence Shifted Turkish Sentences,Valence Shifted Generation,Relative judjment,Rank items,Ordinal,Counting,-,15, No expert: native Turkish speakers,Higher valence ,-,-,-,-
+,Multi-adaptive Natural Language Generation using Principal Component Regression,"Multi-adaptive approach to NaturalLanguage Generation",Relative judjment,Rank items,Ordinal,-,Mann-Whitney,30,No expert: Computer science students,Overall preference,-,-,-,-
+,Two-Stage Stochastic Natural Language Generation for Email Synthesis by Modeling Sender Style and Topic Structure,Email generation,"Absolute judgment (Aj) 
+Relative judjment (Rj)","Aj: Rating (R): (5 points)
+Rj: Rank items (RI)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","R, RI: Interval
+
+No justification","R: Mean
+RI: Percentage",RI: t-test,7,-,"R: 1: highly confident that the email is not from the sender, 5: highly confident that the email is from that sender
+RI: Coherence, Fluency, Naturalness, Preference, Overall",-,-,-,-
+ENLG 2015,A Domain Agnostic Approach to Verbalizing n-ary Events without Parallel Corpora,Generation of natural language texts from knowledge base,Absolute judgment,Choose a category: (3 categories),Nominal,Percentage,-,3,-,Correctness,Fleiss' k,0.76,-,-
+,Reading Times Predict the Quality of Generated Text Above and Beyond Human Ratings,Evaluation study,Relative judjment,Relative rating ,"Interval
+
+No justification","Mean, Standard Deviation ",-,33,No expert: university students and staff,"Clarity, Fluency",-,-,-,-
+,A Framework for the Generation of Computer System Diagnostics in Natural Language using Finite State Methods,Generation of Computer System Diagnostics,Absolute judgment,Rating: Graphic scale (6 points),Ordinal,"Mean, Mode, Median",-,Around 64,-,"Naturalness, Readability, Understandability",-,-,-,-
+,Response Generation in Dialogue using a Tailored PCFG Parser,Dialogue generation,Absolute judgment,"Rating:  (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","Interval
+
+No justification",Mean,-,3,-,"Grammatical fluency, Semantic correctness",-,-,-,-
+,Generating and Evaluating Landmark-based Navigation Instructions in Virtual Environments,Generating Instructions in Virtual Environments,Absolute judgment,"Likert: (4 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)",Ordinal,Mode,χ2 ,16,-,"Human-likeness, Naturalness",-,-,-,-
+,"Towards Flexible, Small-Domain Surface Generation: Combining Data-Driven and Grammatical Approaches",Surface Generation,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","Interval 
+
+No justification","Mean, Standard Deviation",-,-,-,"Grammaticality, Meaningfulness",Percent Agreement,0.44,-,-
+,Topic Transition Strategies for an Information-Giving Agent,Dialogue generation,Absolute judgment,Rating: Numeric (9 points),Ordinal,Used Kruskal-Wallis to check the staistical difference between strategies,Kruskal-Wallis,83,-,"Naturalness, Coherentes, Smoothness, Agent-friendly, Agent warmness, Agent funnies, Agent competence, Agent informedness",-,-,-,-
+,Creating Textual Driver Feedback from Telemetric Data,Textual Driver Feedback Generation,"Absolute judgment (Aj)
+ Relative judjment (Rj)","Aj: Likert (L): (7 points)
+Rj: Rank items (RI)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)","L, RI: Interval
+
+No justification","L: Median
+RI: Mean","L: ANOVA, post-hoc Tukey 
+RI: χ2 ",21,-,"L: The feedback is helpfu
+L:  The feedback gives me an idea how I could adapt my driving behaviour
+L: The feedback encourages me to change my driving behaviour
+RI: ranking the feedbacks",-,-,-,-
+WebNLG 2016,Aligning Texts and Knowledge Bases with Semantic Sentence Simplification,Semantic Sentence Simplification,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","Interval
+
+No justification",Mean,-,6,Expert: the paper's authors,Simplification quality,-,-,-,-
+,Building a System for Stock News Generation in Russian,Stock news generation,Absolute judgment,Rating: Graphic scale (3 points),Ordinal,Percentage,-,-,-,Fluency,-,-,-,-
+,Comparing the template-based approach to GF: the case of Afrikaans,Generation from templates and Grammatical Framework (Comparison between the two methods),Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)","Interval
+
+No justification",Mean,Mann-Whitney,1,   No expert: Native Afrikaans speakers ,Overall quality,-,-,-,-
+Proceedings of the INLG 2016 Workshop on Computational Creativity in Natural Language Generation 2016,Assembling Narratives with Associative Threads,Generation of  narrative structure ,Absolute judgment,Rating: Numerical (5 points),Ordinal,Counting,-,13,-,"Overall, Style, Grammaticality, Flow (between sentences), 
+Vocabulary, Understandability",-,-,-,-
+,Process Based Evaluation of Computer Generated Poetry,Poetry generation,Absolute judgment,"Rating: (7 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","Interval
+
+No justification","Mean, Standard Deviation",t-test,79,-,"Creativity, Meaningfulness, Quality",-,-,-,-
+INLG 2016,Summarising News Stories for Children,Summarization,"Absolute judgment (Aj) 
+Relative judjment (Rj)","Rj; Relative selection (Rs) (Comparative scale) (5 points) 
+Aj: Likert (L): Likert item (5 points) ","Rs, L: Ordinal","Rs, L: Counting",Rs: Sign Test,27,-,"Rs: Informative, Positive, Easy, Suitable
+L: I would consider showing summary {A|B} to a child if I wanted them to know more about this news story",-,-,-,-
+,When to Plummet and When to Soar: Corpus Based Verb Selection for Natural Language Generation,Verb selection,Relative judjment,Rank items,Ordinal,Percentage,Binomial test,-,No expert: crowdsourced workers,Select the most natural sounding sentence,-,-,-,-
+,Abstractive Compression of Captions with Attentive Recurrent Neural Networks,Caption compression generation ,Absolute judgment,"Likert: (7 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","Interval
+
+No justification",Mean,-,25,No expert: native English speakers from Crowdflowe,"Fluency, Importance",-,-,-,-
+,Infusing NLU into Automatic Question Generation,Question Generation,Absolute judgment,Rating: Graphic scale (5 points),"Interval
+
+No justification",Mean,t-test,4,No expert: crowdsourced workers,Overall quality,"Pearson's r (calculated between the avarege score and each set of
+ workers)",0.71,-,-
+,Automatic label generation for news comment clusters,Label generation,Absolute judgment,"Likert : (5 points) 
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)","Interval
+
+No justification",Mean,-,4,No expert: fluent in English,"Q1 I can understand this label
+ Q2: This label isa complete phrase
+ Q3: This label accuratelyreflects the content of the comment cluster",Krippendorff's α ,"Q1: 0.423
+Q2: 0.372
+Q3:  0.699",-,-
+,Improving Fluency in Narrative Text Generation With Grammatical Transformations and Probabilistic Parsing,Narrative Text Generation,Absolute judgment,"Likert : (5 points) 
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)","Interval
+
+No justification",Mean,-,-,No expert: crowdsourced workers,Overall quality,-,-,-,-
+,Unsupervised Sentence Simplification Using Deep Semantics,Sentence Simplification,Absolute judgment,"Rating: (6 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","Interval
+
+No justification",Mean,"One-way ANOVA, post-hoc Tukey",18,No expert: either native speakers or proficient in English,"Adequacy, Fluency, Simplification ",-,-,-,-
+,Enabling text readability awareness during the micro planning phase of NLG applications,Text readability of summaries generation,Relative judjment,"Rank items
+Rank items",Ordinal,Counting ,χ2 ,"90
+50","No expert: crowdsourced workers
+No expert: students at the 5th grade (16), Freshmen college students (34)","Grade to which the summaries belong
+Overall quality",-,-,-,-
+,Selecting Domain-Specific Concepts for Question Generation With Lightly-Supervised Methods,Question Generation,Absolute judgment,"Rating (R2): (2 points)
+Rating (R3): (3 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) ","Interval
+
+No justification",Mean,-,2,"R2, R3: No expert: native English speakers","R2: Specificity, Syntactic, Semantic, Question Type, Importance
+R3: Diversity, Overall quality","Cohen's k (k)
+Percent Agreement (%)","Specificity: 0.18 (k), 0.77 (%)
+Syntactic: 0.11 (k), 0.85 (%)
+ Semantic: 0.18 (k), 0.79 (%)
+ Question Type: 0.27 (k), 0.87 (%)
+ Importance: 0.10 (k), 0.50 (%)
+ Diversity: 0.80 (k), 0.91(%)
+ Overall criterion: 0.51 (k), 0.82(%)",-,"Overall and Diversity scores, were penalized only when
+the scores assigned by the two annotators differed
+for more than 1"
+,Statistical Natural Language Generation from Tabular Non-textual Data,Generation from Tabular Non-textual Data,Absolute judgment,"Rating: (10 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","Interval (?)
+
+No justification",Mean,-,5,No expert: students,"Clarity, Readability",-,-,-,-
+,Collecting Reliable Human Judgements on Machine-Generated Language: The Case of the QG-STEC Data,Question Generation,Absolute judgment,"Rating (R2): Graphic scale (2 points) 
+Rating (R3): Graphic scale  (3 points)
+Rating (R4): Graphic scale (4 points) ",-,The experiment was used to study the Inter-Annotator Agreement,-,-,-,"R2: Question Type
+R3: Ambiguity, Variety
+R4: Relevance, Syntactic correctness",Krippendorff's α,"Relevance: 0.806
+Question Type: 0.859
+Correctness: 0.838
+ Ambiguity: 0.688
+Variety: 0.904",Krippendorff scale,Evaluation done by a set of judges wich iteratively and collaboratively improve the evaluation scheme.
+,Ranking Automatically Generated Questions Using Common Human Queries,Question Generation,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","Interval
+
+No justification",Mean,-,3,No expert: native English speakers,"Semantic correctness, Question type correctness, Clarity of referential, Grammatically correct",-,-,-,-
+,QGASP: a Framework for Question Generation Based on Different Levels of Linguistic Information,Question Generation,Absolute judgment,Choose a category (3 categories),Nominal,Percentage,-,2,-,Overall quality,Cohen's k,0.67,Landis and Koch scale (?),-
+,Crowd-sourcing NLG Data: Pictures Elicit Better Data,Crowd-sourcing NLG Data evaluation,Absolute judgment,"Likert: (6 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)","Interval 
+
+Justified: The authors wrote ""We mostly use parametric statistical
+methods in our analysis. It has been debated
+for over 50 years whether Likert-type measurement
+scales should be analysed using parametric or non-parametric statistical methods (Carifio and
+Perla, 2008). The use of parametric statistics, however,
+was justified repeatedly by (Carifio and Perla,
+2008), (Norman, 2010) and more recently by (Murray,
+2013) as a “perfectly appropriate” (Carifio and
+Perla, 2008) statistical method for Likert scales that
+may be used by researchers “with no fear of coming
+to the wrong conclusion” (Norman, 2010). We
+therefore present and analyse mean averages (rather
+than the mode) for the collected judgements.""","Mean, Standard Deviation",Two-way ANOVA,-,No expert: crowdsourced workers,"Informativeness, Naturalness, Phrasing",-,-,-,-
+XCI 2017,A Simple Method for Clarifying Sentences with Coordination Ambiguities,Paraphrase generation,Relative judjment,Relative selection,Ordinal,Accuracy,-,5,No expert: native English speakers,Select the paraphrase that is closer in meaning to the original sentence,-,-,-,-
+CC-NLG 2017,Constructing narrative using a generative model and continuous action policies,Narrative Text Generation,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale",-,"The papeer was a work in progress, so no result presented",-,20,-,"Coherence, Interest, Topic",-,-,-,-
+INLG 2017,Improving the Naturalness and Expressivity of Language Generation for Spanish,Surface realisation,Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or  Numerical scale","Interval
+
+No justification","Mode,  Mean",-,3,-,"Coherence, Grammatical errors, Post-editing",-,-,-,-
+,"Exploring the Behavior of Classic REG Algorithms
+in the Description of Characters in 3D Images",Generation of description of people in snapshots from a 3D environment,Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,-,52,-,Overall quality,-,-,-,-
+,Referring Expression Generation under Uncertainty: Algorithm and Evaluation Framework,Referring Expression Generation,Absolute judgment,Slider (from 0 to 100),Ordinal,Percentage,-,89,No expert: crowdsourced workers,How well the target object matched each of twenty attributes,-,-,-,-
+,Natural Language Descriptions for Human Activities in Video Streams,"Generation of textual descriptions for human activities
+in videos",Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,-,10,No expert: crowdsourced workers ,"Grammar, Correctness, Relevance",-,-,-,-
+,"PASS: A Dutch data-to-text system for soccer, targeted towards specific audiences",Soccer reports generation ,Absolute judgment,"Likert: (7 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification","Mean, Standard Deviation",χ2 ,20,No expert: Dutch students,"Clarity, Fluency",-,-,-,-
+,Evaluation of a Runyankore grammar engine for healthcare messages,Medical texts generation,"Absolute judgment (Aj)
+Turing Test-like evaluation (T)","Aj: Choose a category (Cac): (4 categories)
+
+T: Turing Test-like evaluation (TT): computer generated vs. human-authored","Cac, TT: Ordinal","Cac, TT: Mean",-,103,"Expert: linguists (3)
+No expert: non-linguists (100)","Cac: Grammaticality and/or Understandability
+
+TT: grade each sentence either as human authored
+ or computer generated, based on its construction",-,-,-,-
+,Towards Automatic Generation of Product Reviews from Aspect-Sentiment Scores,Review generation,Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) ","Interval
+
+No justification",Mean,-,3,"Expert: annotators have good knowledge in the domain 
+of car reviews","Readability, Accuracy, Usefulness",-,-,-,-
+,A model of suspense for narrative generation,Narrative Text Generation,Absolute judgment,Magnitude estimation,"Interval
+
+No justification","The raw suspense ratings were
+converted to normalised z-scores and then calculated the mean and standard
+deviation
+
+The z-scores were correlated with the predicted score with Pearson and Spearman correlation coefficients",-,46 (?),-,Suspense level,Fleiss' k,0.485,Landis and Koch scale,-
+,"Personalized Questions, Answers and Grammars: Aiding the Search for Relevant Web Information","Generation of questions, answers and grammars from web documents",Absolute judgment,"Rating: (10 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,-,53,No expert: university students,Usefulnes,-,-,-,-
+,Textually Summarising Incomplete Data,Data-To-Text generation,Relative judjment,Rank items,Ordinal,Percentage,-,20,-,Choose the most appropriate in describing the dataset,-,-,-,-
+,Neural Response Generation for Customer Service based on Personality Traits,Response Generation,Absolute judgment,"Rating: (5 points zero-sum scale)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,-,5,No expert: crowdsourced workers,"Agreeableness, Conscientiousness",-,-,-,-
+ATA 2018,Assisted Lexical Simplification for French Native Children with Reading Difficulties,Text simplification,Absolute judgment,Choose a category,Nominal,The scores were used in two metrics defined in the paper,-,2,-,Simplifications complexity and context adequacy,k not better specified,"0.625 (for the baseline model)
+0.656 (ReSyf)",-,-
+Proceedings of the Workshop on NLG for Human–Robot Interaction 2018,Learning from Limited Datasets: Implications for Natural Language Generation and Human-Robot Interaction,Dialogue generation (personal assistant),Absolute judgment,"Rating: (10 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification","Mode, Median, Mean",-,18,No expert: undergraduate students,Overall how would you rate the experience?,-,-,-,-
+2IS&NLG 2018,Automation and Optimisation of Humor Trait Generation in a Vocal Dialogue System,Trait Generation in a Vocal Dialogue System,Absolute judgment,"Choose a category (Cac): (2 categories)
+Rating (R): (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Cac: Nominal
+R: Interval
+
+No justification","Cac: Percentage
+R: Mean",R: Two-tailed Welch’s t-test ,14,-,"Cac: Success: “Was the task successful?”
+
+ R: System Understandability: “Was the system easy to understand?”
+ R:  System Understanding: “Did the system understand you well?”
+ R:  Humor Identification: “Do you think you identified when the system was making humor?”
+ R:  Humor Impact: “Do you think humor had a favorable impact on your system perception?”
+ R: Humor Quantity: “Are you satisfied with the amount of humor produced by the system?”",-,-,-,-
+,Textual Entailment based Question Generation,Question Generation,Absolute judgment,"Choose a category (Cac 2): (2 categories)
+Choose a category (Cac 3): (3 categories)","Cac 2, Cac 3: Nominal","Counting, Percentage",-,-,-,"Cac 3: Grammaticality of Questions
+Cac 2: Entailment of Retrieved Sentences
+Cac 2: Answer Existence of Questions",-,-,-,-
+,Two-Step Training and Mixed Encoding-Decoding for Implementing a Generative Chatbot with a Small Dialogue Corpus,Chatbot,Absolute judgment,Rating: Graphic scale (3 points),"Interval
+
+No justification",Mean,-,4,No expert: university students,"Grammaticality, Association with the question",-,-,-,-
+,Supporting Content Design with an Eye Tracker: The Case of Weather-based Recommendations,Weather-based Recommendations,Absolute judgment,"Likert: (7 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification","Mean, Standard Deviation ",-,15,No expert: postgraduate students and PhD candidates,"Coherence text-graphics, Readability, Understandability",-,-,-,-
+,ChatEval: A Tool for the Systematic Evaluation of Chatbots,Platform for chatbots evaluation,Relative judjment,Rank items,-,The paper introduces a platform for chatbots evaluation and it is not reported the methodologies use for the results.,-,3,No expert: crowdsourced workers,Choose the better response,Cohen's k,"18 different experiments
+max: 0.54
+min: 0.2",-,-
+CC-NLG 2018,Exploring Lexical-Semantic Knowledge in the Generation of Novel Riddles in Portuguese,Generation of Novel Riddles,Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style)","Interval
+
+No justification","Mode, Median,  Mean",-,3,No expert: crowdsourced workers,"Interpretation, Surprise, Novelty, Humour potential",Percent Agreement,"Interpretation: 0.54
+ Surprise: 0.59
+ Novelty: 0.56
+ Humour potential: 0.62",-,-
+Proceedings of the First Workshop on Multilingual Surface Realisation 2018,The First Multilingual Surface Realisation Shared Task (SR’18): Overview and Evaluation Results,Surface Realisation Shared Task ,Absolute judgment,Sliders (from 0 to 100),"Interval
+
+No justification","Mean, z-score",-,-,No expert: crowdsourced workers,"Readability, Meaning Similarity",-,-,-,-
+INLG 2018,Syntactic Manipulation for Generating More Diverse and Interesting Texts,"Generation from meaning representations","Absolute judgment (Aj) 
+Relative judjment (Rj)","Aj: Likert (L3): (3 points)
+Aj: Likert (L5): (5 points) 
+
+Rj: Rank items (R)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","L3, L5: Interval 
+R: Ordinal
+
+No justification","L3, L5: Mean
+R: Ratio, Spearman correlation used between different criteria","L3, L5: t-test
+R: Two-tailed binomial test","For each experiment the sentence israted by three different judges",No expert: crowdsourced workers,"L5: Quality
+L3: Naturalness
+
+R: Preference (which sentence do you prefer?)
+R: Comprehensible (is the utterance easier to understand)
+R: Conciseness (does the utterance convey the information clearly with as little text as possible) 
+R: Elegance (is the utterance more nicely written, more  poetic, display higher variability) 
+R: Professional (could this text be written by an experienced and well trained writer)",Fleiss' k,"Native speaking 
+
+Preference: 0.587
+Comprehensible: 0.555
+Conciseness: 0.545
+Elegance: 0.545
+Professional: 0.529
+
+Nonnative speaking 
+
+Preference: 0.456
+Comprehensible: 0.453
+Conciseness: 0.312
+Elegance: 0.497
+Professional: 0.342",-,-
+,"Automated learning of templates for data-to-text generation: comparing rule-based, statistical and neural methods",Data-to-text generation,Absolute judgment," Likert: (7 points) 
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification","Mean, Standard Deviation",Least Significant Difference test,24,No expert: native Dutch students ,"Fluency, Clarity, Correctness","Krippendorff's α (A)
+Weighted k (k)","A: 0.39
+k: 0.07",-,-
+,End-to-End Content and Plan Selection for Data-to-Text Generation,Data-to-text generation,Absolute judgment,-,-,-,-,-,No expert: crowdsourced workers,"Quality, Naturalness",-,-,-,-
+,SimpleNLG-ZH: a Linguistic Realisation Engine for Mandarin,Linguistic Realisation,Absolute judgment,Choose a category: (2 ctegories),Nominal,Counting,-,2,No expert: native speaker,Acceptable,k not better specified,0.77,-,-
+,Learning to Flip the Bias of News Headlines,Generation of article headlines,Absolute judgment,Likert: Likert-style (4 points), Ordinal,Counting ,-,3,Expert: Experts in journalism editing,"Q2. Do you understand headline 2?
+Q3. Do both headlines report on the same event?
+Q4. Do the headlines have opposite bias?",Fleiss' k,"Q2: 0.61 
+Q3: 0.51 
+Q4: 0.29 ",-,-
+,Stylistically User-specific Response Generation,Dialogue generation (user-specific Response Generation),Absolute judgment,"Likert (L): (3 points)
+Rating (R): (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","L, R: Interval
+
+No justification","L: Percentage, Mean
+R: Mean","L: One-way ANOVA
+R: Friedman Test",10,Expert: Crowdsourced workers,"L: Fluency or naturalness
+ L: Relevance or adequacy
+R: Style",-,-,-,-
+,Explainable Autonomy: A Study of Explanation Styles for Building Clear Mental Models,"Interactive multimodal
+ system for autonomous underwater vehicles ",Absolute judgment,"Likert (L_aggregate): Likert scale (7 points)
+Likert (L):  Likert item (7 points)","L: Ordinal
+L_aggregate: Intervall
+
+For aggregate is accepted the interval interpretation","L: Mode, Median Item-by-item (“Worth it” and MM-Q1 and MM-Q2)
+
+L_aggregate:  Mode, Median, Mean and Standard Deviation aggregate (US-Q1, US-Q2, US-Q3, US-Q4) and (MM-Q1, MM-Q2)","L: Mann-Whitney, Kruskal-Wallis",21,"Expert: participants were educated to undergraduate, masters degree or PhD level and all worked in the field of software for AUVs","US-Q1: The system chat responses were easy to understand
+US-Q2: The system explanations were easy to understand
+US-Q3: The system explanations were useful
+US-Q4: The system explanations were as expected
+“Worth it” question: It would be worth reading the explanations to understand how the system is behaving
+MM-Q1: The system explanations in this video help me to increase my understanding of how AUVs work
+MM-Q2: The system explanations in this video help me to increase my understanding of what the AUVs were doing",-,-,-,-
+,Content Aware Source Code Change Description Generation,Source code descriptions generation,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,-,"Each example was shown to
+3 different turkers",No expert: crowdsourced workers,Correlation between sentences,-,-,-,-
+,Generating Market Comments Referring to External Resources,Market comments generation,Absolute judgment,"Choose a category (Cac 2): (2 ctegories)
+Choose a category (Cac 4): (4 ctegories)","Cac 2, Cac 4: Nominal","Cac 2, Cac 4: Counting ",-,1,Expert: expert in finance,"Cac 2: Fluency 
+Cac 4: Informativeness",-,-,-,-
+,Automatic Opinion Question Generation,Question Generation,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,-,3,No expert: English-speaker students,"Syntactic correctness, Relevance",-,-,-,-
+,Self-Learning Architecture for Natural Language Generation,"Conversational assistants (self-learning architecture for generating natural language templates)",Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,-,21,-,"Grammatical correctness, Informativeness",-,-,-,-
+,Towards making NLG a voice for interpretable Machine Learning,"Using NLG to humanise explanations from interpretable
+ machine learning framework",Absolute judgment,"Likert (L): (5 points)
+Choose a category (Cac 1): Select one
+Choose a category (Cac more): Select all that apply
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) ","L, Cac 1, Cac more: Intervall
+
+No justification","L, Cac 1, Cac more: Mean, Standard Deviation ","L: Mann-Whitney
+Cac 1, Cac more: χ2 ",39,-,"Cac 1: Most influential variable
+Cac more: Positive variables, Negative Variables
+
+L: Ease of reading, Decision is close,Understanding, Trust",-,-,-,-
+,LSTM Hypertagging,"Surface realization (Hypertagging)",Relative judjment,Rank items,Ordinal,Counting,Sign test,2,Expert: linguists,"Adequacy, Fluency",Percent Agreement,"Fluency: 70% 
+Adequacy: 73%",-,-
+,Generating E-Commerce Product Titles and Predicting their Quality,E-Commerce product titles generation,Absolute judgment,Choose a category: (2 ctegories),Nominal,"Counting, Percentage",-,-,-,Usefulness: Quality problems (organized in a hierarchy) related to irrelevant information or  important missing information in the titles,-,-,-,-
+,Designing and testing the messages produced by a virtual dietitian,Medical texts generation,Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification","Mean, Standard Deviation",-,20,No expert: native Italian speakers ,"4 questions concerning the app and the lexicon
+9  questions concerning the blue and violet versions of the generator",-,-,-,-
+,Generation of Company descriptions using concept-to-text and text-to-text deep models: dataset collection and systems evaluation,Company descriptions generation,Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,-,19,No expert: authors' colleagues do not involved in the project (not native English speakers),"Q1: How do you judge the Information Coverageof the company summary
+Q2: How do you judge the Non-Redundancy of Information in the company summary
+Q3: How do you judge the Semantic Adequacy ofthe company summary? 
+Q4: How do you judge the Grammatical Correctnessof the company summary?",-,-,-,-
+,Automatically Generating Questions about Novel Metaphors in Literature,Question Generation,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,One-way ANOVA ,2,No expert: crowdsourced workers,"Naturalness, Clarity, Sensibility, Depth",Krippendorff's α,"Naturalness: 0.50 
+ Clarity: 0.52
+ Sensibility: 0.51
+ Depth: 0.52",Landis and Koch scale (?),"Small disagreements were adjudicated by averaging, and disagreements greater than a difference of 2.0 (e.g., a 1 and a 4) were forwarded to a third-party, native English speaking adjudicator"
+,A Master-Apprentice Approach to Automatic Creation of Culturally Satirical Movie Titles,Satirical movie titles generation,Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,-,48,No expert: crowdsourced workers,"The title is humorous
+The original title is recognizable
+The humor in the title relates to Saudi Arabia
+The title is critical towards Saudi Arabia
+The joke in the title sounds familiar
+The joke in the title is obvious
+The title delivers a pun
+The joke in the title is surprising
+The joke of the title makes sense in the contextof the original movie",-,-,-,-
+,"Neural Generation of Diverse Questions using Answer Focus, Contextual and Linguistic Features",Question Generation,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,-,3,No expert: crowdsourced workers,"Grammaticality, Correct Information,
+ Answerability, Naturalness",Pearson's r (measured by comparing the arithmetic mean of the three Turker ratings to those of an expert annotator who is a native English speaking graduate student in Computational Linguistics.),"Grammaticality: 0:20
+ Correct Information: 0:47
+ Answerability: 0:38
+ Naturalness: 0:32",-,-
+,Findings of the E2E NLG Challenge,End-to-end (E2E) natural language generation,Relative judjment,Rank items,Ordinal,TrueSkill,-,-,No expert: crowdsourced workers,"Naturalness, Overall quality",-,-,-,-
+,Handling Rare Items in Data-to-Text Generation,Data-to-Text Generation,Absolute judgment,Choose a category: (2 ctegories),Nominal,Percentage,-,1,-,Semantic Adequacy,-,-,-,-
+,Comprehension Driven Document Planning in Natural Language Generation Systems,Document Planning,Absolute judgment,"Likert: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,ANOVA,37,No expert: native English speakers (28),"S1 The description is easy to read and understand
+S2 The description explains the suitability of the product for the task
+S3 The description is presented in a sensible order
+S4 Overall, this is a good description",-,-,-,-
+,Adapting Neural Single-Document Summarization Model for Abstractive Multi-Document Summarization: A Pilot Study,Document Summarization,Absolute judgment,"Rating: (5 points)
+
+Alternative name: Graphic rating scale (or Likert item or Likert-style) or Numerical scale","Interval
+
+No justification",Mean,-,3,No expert: fluent in English,"Coherence, Non-Redundancy, Readability.",-,-,-,-
+,Generating Summaries of Sets of Consumer Products: Learning from Experiments,Summarization of consumer products,Relative judjment,Rank items,Ordinal,Percentage,Friedman,18,No expert: graduate students,Rank the summaries,-,-,-,-
+,Cyclegen: Cyclic consistency based product review generator from attributes,Review generator,Relative judjment,Choose a category: (2 ctegories) ,Nominal,Accuracy,-,-,-,Polarity (Positive(4-5) Negative(1-3)),-,-,-,-
+,Char2char Generation with Reranking for the E2E NLG Challenge,End-to-end (E2E) natural language generation, Relative judgment,Rank items,Ordinal,TrueSkill,-,-,No expert: crowdsourced workers,"Naturalness, Overall quality",-,-,-,-
+,E2E NLG Challenge Submission: Towards Controllable Generation of Diverse Natural Language,End-to-end (E2E) natural language generation,Relative judjment,Rank items,Ordinal,TrueSkill,-,-,No expert: crowdsourced workers,"Naturalness, Overall quality",-,-,-,-
+,E2E NLG Challenge: Neural Models vs. Templates,End-to-end (E2E) natural language generation,Relative judjment,Rank items,Ordinal,TrueSkill,-,-,No expert: crowdsourced workers,"Naturalness, Overall quality",-,-,-,-
+,The E2E NLG Challenge: A Tale of Two Systems,End-to-end (E2E) natural language generation,Relative judjment,Rank items,Ordinal,TrueSkill,-,-,No expert: crowdsourced workers,"Naturalness, Overall quality",-,-,-,-
