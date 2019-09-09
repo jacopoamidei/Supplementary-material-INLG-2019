@@ -1,5 +1,3 @@
-# Supplementary-material-INLG-2019
-
 This repository contains the supplementary material for the papers:
 
 Jacopo Amidei, Paul Piwek and Alistair Willis, The use of rating and Likert scales in Natural Language Generation  human evaluation tasks: A review and some recommendations. 
