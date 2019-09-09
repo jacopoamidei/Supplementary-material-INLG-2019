@@ -4,7 +4,6 @@ Jacopo Amidei, Paul Piwek and Alistair Willis, <em>The use of rating and Likert 
 
 Jacopo Amidei, Paul Piwek and Alistair Willis, <em>Agreement is overrated: A plea for correlation to assess human evaluation reliability.<em> 
 
-
 Files description:
 
 <em>Dataset for the analysis.csv:<em> csv version of the data used in the papers.
