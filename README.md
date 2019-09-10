@@ -1,8 +1,8 @@
 This repository contains the supplementary material for the papers:
 
-Jacopo Amidei, Paul Piwek and Alistair Willis, <em>The use of rating and Likert scales in Natural Language Generation  human evaluation tasks: A review and some recommendations.</em> 
+Jacopo Amidei, Paul Piwek and Alistair Willis, <em>The use of rating and Likert scales in Natural Language Generation  human evaluation tasks: A review and some recommendations,</em>  To appear in, Proceedings of The 12th International Natural Language Generation Conference, Tokyo, Japan, October 29 - November 1, 2019.
 
-Jacopo Amidei, Paul Piwek and Alistair Willis, <em>Agreement is overrated: A plea for correlation to assess human evaluation reliability.</em> 
+Jacopo Amidei, Paul Piwek and Alistair Willis, <em>Agreement is overrated: A plea for correlation to assess human evaluation reliability,</em> To appear in, Proceedings of The 12th International Natural Language Generation Conference, Tokyo, Japan, October 29 - November 1, 2019.
 
 Files description:
 
